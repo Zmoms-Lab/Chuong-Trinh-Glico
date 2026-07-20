@@ -174,45 +174,117 @@
     </section>
 
     <section class="container">
-      <h2 class="section-title">Danh sách cửa hàng</h2>
+      <h2 class="section-title">Tra cứu cửa hàng nhận quà</h2>
 
-      <div class="store-search">
-        <input
-          id="search"
-          type="text"
-          placeholder="Nhập tên cửa hàng hoặc địa chỉ..."
+      <div class="lookup-guide">
+        <div class="lookup-step">
+          <span>01</span>
+          <p>Xác định loại voucher theo hình bên dưới.</p>
+        </div>
+
+        <img
+          src="assets/voucher-guide.jpg"
+          alt="Hướng dẫn phân biệt voucher"
+          class="guide-image"
         />
+
+        <div class="lookup-step">
+          <span>02</span>
+          <p>Chọn loại voucher.</p>
+        </div>
+
+        <select id="brand">
+          <option value="">-- Chọn loại voucher --</option>
+          <option value="longchau">Long Châu</option>
+          <option value="sakuko">Sakuko</option>
+        </select>
+
+        <div class="lookup-step">
+          <span>03</span>
+          <p>Chọn bệnh viện hoặc phòng khám nhận voucher.</p>
+        </div>
+
+        <select id="hospital">
+          <option value="">-- Chọn bệnh viện --</option>
+        </select>
       </div>
 
-      <div id="stores">
-        <div class="store">
-          <h3>Con Cưng Quận 1</h3>
+      <div id="result"></div>
+    </section>
+    <section class="container">
+      <h2 class="section-title">Câu hỏi thường gặp</h2>
 
-          <p>123 Nguyễn Trãi, Quận 1, TP.HCM</p>
+      <div class="faq-list">
+        <details class="faq-item">
+          <summary>Tôi có thể nhận quà hộ người khác không?</summary>
+          <p>
+            Không. Chương trình chỉ áp dụng cho chính người nhận quà. Khi đến
+            cửa hàng, khách hàng cần mang đầy đủ giấy tờ bản gốc và điện thoại
+            đã đăng ký để xác thực.
+          </p>
+        </details>
 
-          <span class="badge">Đổi quà tại đây</span>
-        </div>
+        <details class="faq-item">
+          <summary>
+            Nếu quên mang giấy tờ bản gốc thì có được nhận quà không?
+          </summary>
+          <p>
+            Không. Cửa hàng chỉ xác thực bằng giấy tờ bản gốc theo quy định của
+            chương trình.
+          </p>
+        </details>
 
-        <div class="store">
-          <h3>Kids Plaza Gò Vấp</h3>
+        <details class="faq-item">
+          <summary>
+            Tôi chỉ có ảnh chụp sổ khám thai hoặc giấy khai sinh thì có được
+            chấp nhận không?
+          </summary>
+          <p>
+            Không. Ảnh chụp hoặc bản photocopy không được sử dụng để xác thực.
+          </p>
+        </details>
 
-          <p>456 Phan Văn Trị, Gò Vấp, TP.HCM</p>
+        <details class="faq-item">
+          <summary>Mã OTP hết hạn hoặc không còn thì phải làm sao?</summary>
+          <p>
+            Vui lòng đăng ký lại hoặc liên hệ đơn vị phát hành Phiếu quà để được
+            hỗ trợ theo quy định của chương trình.
+          </p>
+        </details>
 
-          <span class="badge">Đổi quà tại đây</span>
-        </div>
+        <details class="faq-item">
+          <summary>Một mẹ có thể nhận nhiều phần quà không?</summary>
+          <p>
+            Không. Mỗi mẹ hoặc mỗi bé chỉ được nhận <strong>01 phần quà</strong>
+            theo quy định của chương trình.
+          </p>
+        </details>
 
-        <div class="store">
-          <h3>Bibomart Thủ Đức</h3>
+        <details class="faq-item">
+          <summary>Tôi đến cửa hàng nhưng hết quà thì sao?</summary>
+          <p>
+            Quà được phát theo số lượng của chương trình. Bạn nên kiểm tra thời
+            gian nhận quà và đến cửa hàng sớm để được phục vụ tốt nhất.
+          </p>
+        </details>
 
-          <p>789 Võ Văn Ngân, TP. Thủ Đức</p>
+        <details class="faq-item">
+          <summary>Tôi có thể đổi cửa hàng nhận quà không?</summary>
+          <p>
+            Có. Bạn có thể tra cứu các cửa hàng áp dụng theo loại Voucher và lựa
+            chọn cửa hàng phù hợp trước khi đến nhận quà.
+          </p>
+        </details>
 
-          <span class="badge">Đổi quà tại đây</span>
-        </div>
+        <details class="faq-item">
+          <summary>Nhận quà có mất phí không?</summary>
+          <p>
+            Không. Chương trình hoàn toàn miễn phí đối với khách hàng đủ điều
+            kiện và thực hiện đúng quy định.
+          </p>
+        </details>
       </div>
     </section>
-
-    <footer>© 2026 Cộng Đồng Bầu. All Rights Reserved.</footer>
-
     <script src="js/script.js"></script>
   </body>
 </html>
