@@ -201,10 +201,19 @@
 
         <div class="lookup-step">
           <span>03</span>
+          <p>Chọn tỉnh/thành phố nhận voucher.</p>
+        </div>
+
+        <select id="province">
+          <option value="">-- Chọn tỉnh/thành phố --</option>
+        </select>
+
+        <div class="lookup-step">
+          <span>04</span>
           <p>Chọn bệnh viện hoặc phòng khám nhận voucher.</p>
         </div>
 
-        <select id="hospital">
+        <select id="hospital" disabled>
           <option value="">-- Chọn bệnh viện --</option>
         </select>
       </div>
@@ -285,6 +294,7 @@
         </details>
       </div>
     </section>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/qrcodejs/1.0.0/qrcode.min.js"></script>
     <script src="js/script.js"></script>
   </body>
 </html>

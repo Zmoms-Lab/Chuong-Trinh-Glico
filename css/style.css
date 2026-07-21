@@ -419,6 +419,12 @@ header {
   font-weight: 700;
 }
 
+#qrcode {
+  display: flex;
+  justify-content: center;
+  margin: 20px 0;
+}
+
 .faq-list {
   display: flex;
   flex-direction: column;
