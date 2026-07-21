@@ -17,52 +17,66 @@
       "optional": []
     },
     {
-      "hospital": "Bệnh viện Đa khoa Hà Đông",
+      "hospital": "Spa Sammy Care",
       "main": {
-        "name": "Long Châu 27-29 Vạn Phúc",
-        "address": "27-29 Vạn Phúc, P. Vạn Phúc, Q. Hà Đông, Hà Nội"
+        "name": "Long Châu 111 Thái Thịnh",
+        "address": "111 Thái Thịnh, P. Thịnh Quang, Q. Đống Đa, Hà Nội"
       },
       "optional": []
     },
     {
       "hospital": "Bệnh viện Nhi Hà Nội",
       "main": {
-        "name": "Long Châu Time City",
-        "address": "SH0104-SH0204 Time City, 25 Lĩnh Nam, P. Mai Động, Q. Hoàng Mai, Hà Nội"
+        "name": "Long Châu CT7G Dương Nội",
+        "address": "Tầng 1, Tòa CT7G, KĐT Dương Nội, Q. Hà Đông, Hà Nội"
       },
       "optional": []
     },
     {
-      "hospital": "Spa Sammy Care",
-      "main": null,
+      "hospital": "Bệnh viện Đa khoa Hà Đông",
+      "main": {
+        "name": "Long Châu CT7G Dương Nội",
+        "address": "Tầng 1, Tòa CT7G, KĐT Dương Nội, Q. Hà Đông, Hà Nội"
+      },
       "optional": []
     },
     {
       "hospital": "Bệnh viện Sản Nhi Bắc Ninh",
       "main": {
         "name": "Long Châu 300 Lê Lợi",
-        "address": "300 Lê Lợi, P. Bắc Giang"
+        "address": "300 Lê Lợi, Bắc Giang"
       },
       "optional": []
     },
     {
-      "hospital": "Phòng khám Tâm Phúc (Hải Phòng)",
+      "hospital": "Bệnh viện Đa khoa Quốc tế Tâm Phúc Hải Phòng",
       "main": {
         "name": "Long Châu 313-315 Hai Bà Trưng",
         "address": "313-315 Hai Bà Trưng, P. An Biên, Hải Phòng"
       },
-      "optional": [
-        {
-          "name": "Long Châu 213 Nguyễn Lương Bằng",
-          "address": "Hải Phòng"
-        }
-      ]
+      "optional": []
     },
     {
-      "hospital": "Bệnh viện Việt Tiệp",
+      "hospital": "Bệnh viện Đại học Y Hải Phòng",
       "main": {
         "name": "Long Châu 313-315 Hai Bà Trưng",
         "address": "313-315 Hai Bà Trưng, P. An Biên, Hải Phòng"
+      },
+      "optional": []
+    },
+    {
+      "hospital": "Bệnh viện Hữu nghị Việt Tiệp Hải Phòng",
+      "main": {
+        "name": "Long Châu 313-315 Hai Bà Trưng",
+        "address": "313-315 Hai Bà Trưng, P. An Biên, Hải Phòng"
+      },
+      "optional": []
+    },
+    {
+      "hospital": "Bệnh viện Quốc tế Green Hải Phòng",
+      "main": {
+        "name": "Long Châu 48 Trần Thành Ngọ",
+        "address": "48 Trần Thành Ngọ, Kiến An, Hải Phòng"
       },
       "optional": []
     },
@@ -70,7 +84,7 @@
       "hospital": "Bệnh viện Phụ Sản Hải Dương",
       "main": {
         "name": "Long Châu 618 Nguyễn Văn Linh",
-        "address": "618 Nguyễn Văn Linh, P. Lê Thanh Nghị, Hải Dương"
+        "address": "618 Nguyễn Văn Linh, TP. Hải Dương"
       },
       "optional": []
     },
@@ -78,294 +92,104 @@
       "hospital": "Bệnh viện Sản Nhi Quảng Ninh",
       "main": {
         "name": "Long Châu 14 Giếng Đồn",
-        "address": "14 Giếng Đồn, P. Hồng Gai, Hạ Long"
+        "address": "14 Giếng Đồn, Hạ Long, Quảng Ninh"
       },
       "optional": []
     },
     {
-      "hospital": "Bệnh viện Bãi Cháy",
+      "hospital": "Bệnh viện Đa khoa Bãi Cháy",
       "main": {
         "name": "Long Châu 14 Giếng Đồn",
-        "address": "14 Giếng Đồn, P. Hồng Gai, Hạ Long"
+        "address": "14 Giếng Đồn, Hạ Long, Quảng Ninh"
       },
       "optional": []
-    },
-    {
-      "hospital": "Đại học Y Hải Phòng",
-      "main": {
-        "name": "Long Châu 313-315 Hai Bà Trưng",
-        "address": "313-315 Hai Bà Trưng, P. An Biên, Hải Phòng"
-      },
-      "optional": []
-    },
-    {
-      "hospital": "Bệnh viện Quốc tế Green",
-      "main": {
-        "name": "Long Châu 48 Trần Thành Ngọ",
-        "address": "48 Trần Thành Ngọ, P. Kiến An, Hải Phòng"
-      },
-      "optional": [
-        {
-          "name": "Long Châu 719 Trần Nhân Tông",
-          "address": "Hải Phòng"
-        }
-      ]
-    },
-    {
-      "hospital": "Bệnh viện Đa khoa Đồng Nai",
-      "main": {
-        "name": "Long Châu 125/13A-125/13B Phạm Văn Thuận",
-        "address": "P. Tam Hiệp, Biên Hòa, Đồng Nai"
-      },
-      "optional": [
-        {
-          "name": "Cụm Long Châu Biên Hòa",
-          "address": "7 cửa hàng khu vực Biên Hòa"
-        }
-      ]
-    },
-    {
-      "hospital": "Bệnh viện Becamex Bình Dương",
-      "main": {
-        "name": "Long Châu 325 Phạm Ngọc Thạch",
-        "address": "P. Phú Lợi, Bình Dương"
-      },
-      "optional": [
-        {
-          "name": "Long Châu 135 CMT8",
-          "address": "Bình Dương"
-        }
-      ]
-    },
-    {
-      "hospital": "Bệnh viện CIH",
-      "main": {
-        "name": "Long Châu 111 Bình Trị Đông",
-        "address": "Bình Tân, TP.HCM"
-      },
-      "optional": [
-        {
-          "name": "Long Châu 91 Đường số 01",
-          "address": "Bình Tân, TP.HCM"
-        },
-        {
-          "name": "Long Châu 370 Hồ Học Lãm",
-          "address": "Bình Tân, TP.HCM"
-        }
-      ]
-    },
-    {
-      "hospital": "Bệnh viện Sản Nhi Bình Dương / Bệnh viện Đa khoa Thủ Đức",
-      "main": {
-        "name": "Long Châu 135 CMT8",
-        "address": "Bình Dương"
-      },
-      "optional": [
-        {
-          "name": "Long Châu 580 Nguyễn Duy Trinh",
-          "address": "Thủ Đức"
-        },
-        {
-          "name": "Long Châu 1 Đặng Đại Hành",
-          "address": "Thủ Đức"
-        },
-        {
-          "name": "Long Châu 112 Gò Dưa",
-          "address": "Thủ Đức"
-        }
-      ]
-    },
-    {
-      "hospital": "Bệnh viện Tâm Anh",
-      "main": {
-        "name": "Long Châu 1008-1010 Âu Cơ",
-        "address": "Tân Bình, TP.HCM"
-      },
-      "optional": [
-        {
-          "name": "Long Châu 110 Phan Huy Ích",
-          "address": "TP.HCM"
-        },
-        {
-          "name": "Long Châu 112-114 Trường Chinh",
-          "address": "TP.HCM"
-        }
-      ]
-    },
-    {
-      "hospital": "Bệnh viện SIH",
-      "main": {
-        "name": "Long Châu 189 Cống Quỳnh",
-        "address": "Quận 1, TP.HCM"
-      },
-      "optional": [
-        {
-          "name": "Long Châu 6Bis CMT8",
-          "address": "TP.HCM"
-        }
-      ]
-    },
-    {
-      "hospital": "Bệnh viện Hoàn Hảo Kei Mei Kai",
-      "main": {
-        "name": "Long Châu 52/3 ĐT743C",
-        "address": "Dĩ An, Bình Dương"
-      },
-      "optional": [
-        {
-          "name": "Long Châu 81 Nguyễn An Ninh",
-          "address": "Bình Dương"
-        }
-      ]
-    },
-    {
-      "hospital": "Bệnh viện Xuyên Á",
-      "main": {
-        "name": "Long Châu 38 Liêu Bình Hương",
-        "address": "Củ Chi, TP.HCM"
-      },
-      "optional": [
-        {
-          "name": "Long Châu 149 Tỉnh lộ 15",
-          "address": "Củ Chi"
-        }
-      ]
-    },
-    {
-      "hospital": "Bệnh viện Hạnh Phúc",
-      "main": {
-        "name": "Long Châu 51 Cách Mạng Tháng 8",
-        "address": "51 Cách Mạng Tháng 8, Lái Thiêu, Bình Dương"
-      },
-      "optional": [
-        {
-          "name": "Long Châu Đường 22/12",
-          "address": "An Phú, Bình Dương"
-        }
-      ]
-    },
-    {
-      "hospital": "Bệnh viện Hoàn Mỹ Đồng Nai",
-      "main": {
-        "name": "Long Châu F267 Võ Thị Sáu",
-        "address": "P. Trấn Biên, Đồng Nai"
-      },
-      "optional": [
-        {
-          "name": "Cụm Long Châu Biên Hòa",
-          "address": "Biên Hòa"
-        }
-      ]
-    },
-    {
-      "hospital": "Bệnh viện Phụ Sản Âu Cơ",
-      "main": {
-        "name": "Long Châu 125 Phạm Văn Thuận",
-        "address": "Biên Hòa (nếu BV ở Đồng Nai)"
-      },
-      "optional": [
-        {
-          "name": "Long Châu 1008-1010 Âu Cơ",
-          "address": "Tân Bình (nếu BV ở TP.HCM)"
-        }
-      ]
     },
     {
       "hospital": "Bệnh viện Shing Mark",
       "main": {
         "name": "Long Châu 982-983 Quốc lộ 51",
-        "address": "P. Long Hưng, Đồng Nai"
+        "address": "Long Hưng, Đồng Nai"
       },
-      "optional": [
-        {
-          "name": "Long Châu 356A Bùi Văn Hòa",
-          "address": "Đồng Nai"
-        }
-      ]
+      "optional": []
+    },
+    {
+      "hospital": "Bệnh viện Đa khoa Đồng Nai",
+      "main": {
+        "name": "Long Châu 125 Phạm Văn Thuận",
+        "address": "125 Phạm Văn Thuận, Tam Hiệp, Đồng Nai"
+      },
+      "optional": []
+    },
+    {
+      "hospital": "Bệnh viện Phụ sản Quốc tế Âu Cơ",
+      "main": {
+        "name": "Long Châu 125 Phạm Văn Thuận",
+        "address": "125 Phạm Văn Thuận, Tam Hiệp, Đồng Nai"
+      },
+      "optional": []
+    },
+    {
+      "hospital": "Bệnh viện Becamex Bình Dương",
+      "main": {
+        "name": "Long Châu 325 Phạm Ngọc Thạch",
+        "address": "325 Phạm Ngọc Thạch, Phú Lợi, Bình Dương"
+      },
+      "optional": []
+    },
+    {
+      "hospital": "Bệnh viện Quốc tế Hạnh Phúc",
+      "main": {
+        "name": "Long Châu 51 Cách Mạng Tháng 8",
+        "address": "51 Cách Mạng Tháng 8, Lái Thiêu, Bình Dương"
+      },
+      "optional": []
     },
     {
       "hospital": "Bệnh viện Columbia Asia Bình Dương",
       "main": {
         "name": "Long Châu 51 Cách Mạng Tháng 8",
-        "address": "Lái Thiêu, Bình Dương"
+        "address": "51 Cách Mạng Tháng 8, Lái Thiêu, Bình Dương"
       },
-      "optional": [
-        {
-          "name": "Long Châu Đường 22/12",
-          "address": "An Phú, Bình Dương"
-        }
-      ]
-    },
-    {
-      "hospital": "Bệnh viện An Bình",
-      "main": {
-        "name": "Long Châu 234/1 Phạm Phú Thứ",
-        "address": "Quận 5, TP.HCM"
-      },
-      "optional": [
-        {
-          "name": "Long Châu 14 Bình Phú",
-          "address": "Quận 6, TP.HCM"
-        }
-      ]
-    },
-    {
-      "hospital": "Phòng khám Trúc Phương / Ái Nghĩa / Phương Nam / Phương Chi",
-      "main": null,
       "optional": []
-    }
-  ],
-  "sakuko": [
-    {
-      "hospital": "Bệnh viện Phụ Sản Hà Nội",
-      "main": {
-        "name": "Sakuko Đội Cấn",
-        "address": "Ba Đình, Hà Nội"
-      },
-      "optional": [
-        {
-          "name": "Sakuko Thái Hà",
-          "address": "Đống Đa, Hà Nội"
-        },
-        {
-          "name": "Sakuko Nguyễn Khuyến",
-          "address": "Đống Đa, Hà Nội"
-        }
-      ]
     },
     {
-      "hospital": "Bệnh viện Phụ Sản Trung Ương",
+      "hospital": "Bệnh viện Hoàn Hảo Kei Mei Kai",
       "main": {
-        "name": "Sakuko Hàng Bông",
-        "address": "Hoàn Kiếm, Hà Nội"
+        "name": "Long Châu 52/3 ĐT743C",
+        "address": "52/3 ĐT743C, Dĩ An, Bình Dương"
       },
-      "optional": [
-        {
-          "name": "Sakuko Nguyễn Du",
-          "address": "Hai Bà Trưng, Hà Nội"
-        }
-      ]
+      "optional": []
     },
     {
-      "hospital": "Bệnh viện Nhi Hà Nội",
+      "hospital": "Bệnh viện Sản Nhi Bình Dương",
       "main": {
-        "name": "Sakuko T6 Time City",
-        "address": "Hoàng Mai, Hà Nội"
+        "name": "Long Châu 135 Cách Mạng Tháng Tám",
+        "address": "135 Cách Mạng Tháng Tám, Thủ Dầu Một, Bình Dương"
       },
-      "optional": [
-        {
-          "name": "Sakuko Linh Đàm",
-          "address": "Hoàng Mai, Hà Nội"
-        },
-        {
-          "name": "Sakuko Bạch Mai",
-          "address": "Hai Bà Trưng, Hà Nội"
-        }
-      ]
+      "optional": []
     },
     {
-      "hospital": "Spa Sammy Care",
-      "main": null,
+      "hospital": "Bệnh viện Đa khoa Thủ Đức",
+      "main": {
+        "name": "Long Châu 135 Cách Mạng Tháng Tám",
+        "address": "135 Cách Mạng Tháng Tám, Thủ Dầu Một, Bình Dương"
+      },
+      "optional": []
+    },
+    {
+      "hospital": "Bệnh viện Quốc tế City (CIH)",
+      "main": {
+        "name": "Long Châu 111 Bình Trị Đông",
+        "address": "111 Bình Trị Đông, Bình Tân, TP.HCM"
+      },
+      "optional": []
+    },
+    {
+      "hospital": "Bệnh viện Đa khoa Xuyên Á",
+      "main": {
+        "name": "Long Châu 38 Liêu Bình Hương",
+        "address": "38 Liêu Bình Hương, Củ Chi, TP.HCM"
+      },
       "optional": []
     }
   ]
