@@ -15,6 +15,7 @@ function init() {
   const provinceSelect = document.getElementById("province");
   const hospitalSelect = document.getElementById("hospital");
   const result = document.getElementById("result");
+  const allStoreResult = document.getElementById("all-store-result");
 
   let currentHospitals = [];
 
@@ -38,7 +39,7 @@ function init() {
     if (!brand) return;
 
     const provinces = [
-      ...new Set(DATA[brand].map((item) => item.province)),
+      ...new Set(DATA.hospital_mapping[brand].map((item) => item.province)),
     ].sort();
 
     provinces.forEach((province) => {
@@ -68,7 +69,9 @@ function init() {
       return;
     }
 
-    currentHospitals = DATA[brand].filter((item) => item.province === province);
+    currentHospitals = DATA.hospital_mapping[brand].filter(
+      (item) => item.province === province,
+    );
 
     currentHospitals.forEach((item, index) => {
       hospitalSelect.innerHTML += `
@@ -78,16 +81,73 @@ function init() {
       `;
     });
 
+    // Thêm option xem toàn bộ cửa hàng trong tỉnh
+    hospitalSelect.innerHTML += `
+      <option value="ALL_STORES">
+        📍 Tất cả cửa hàng tại ${province}
+      </option>
+    `;
+
     hospitalSelect.disabled = false;
   });
 
   // Chọn bệnh viện
   hospitalSelect.addEventListener("change", () => {
     result.innerHTML = "";
+    allStoreResult.innerHTML = "";
 
     const index = hospitalSelect.value;
 
     if (index === "") return;
+
+    // ==========================
+    // XEM TOÀN BỘ CỬA HÀNG
+    // ==========================
+
+    if (index === "ALL_STORES") {
+      const brand = brandSelect.value;
+      const province = provinceSelect.value;
+
+      const stores = DATA.stores[brand].filter(
+        (store) => store.province === province,
+      );
+
+      let html = `
+        <h3 class="result-title">
+          📍 Tất cả cửa hàng tại ${province}
+        </h3>
+      `;
+
+      if (!stores.length) {
+        html += `
+          <div class="notice">
+            Không có cửa hàng phù hợp.
+          </div>
+        `;
+      } else {
+        stores.forEach((store) => {
+          html += `
+            <div class="store-card">
+              <h3>
+                ${store.name}
+              </h3>
+
+              <p>
+                ${store.address}
+              </p>
+            </div>
+          `;
+        });
+      }
+
+      result.innerHTML = html;
+
+      return;
+    }
+
+    // ==========================
+    // FLOW CŨ
+    // ==========================
 
     const hospital = currentHospitals[index];
 
@@ -98,7 +158,10 @@ function init() {
 
       <div class="store-card">
         <h3>${hospital.main.name}</h3>
-        <p>${hospital.main.address}</p>
+
+        <p>
+          ${hospital.main.address}
+        </p>
 
         <span class="badge">
           ⭐ Cửa hàng khuyến nghị
@@ -116,8 +179,13 @@ function init() {
       hospital.optional.forEach((store) => {
         html += `
           <div class="store-card alt">
-            <h3>${store.name}</h3>
-            <p>${store.address}</p>
+            <h3>
+              ${store.name}
+            </h3>
+
+            <p>
+              ${store.address}
+            </p>
           </div>
         `;
       });
