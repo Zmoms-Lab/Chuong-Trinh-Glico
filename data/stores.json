@@ -22,18 +22,8 @@
         "province": "Hà Nội"
       },
       {
-        "name": "SKK Đội Cấn",
-        "address": "209 Đội Cấn, Ba Đình, Hà Nội",
-        "province": "Hà Nội"
-      },
-      {
         "name": "SKK Bạch Mai",
         "address": "462 Bạch Mai, Hai Bà Trưng, Hà Nội",
-        "province": "Hà Nội"
-      },
-      {
-        "name": "SKK Hàng Bông",
-        "address": "169-171 Ngõ Hàng Bông, Hàng Bông, Hoàn Kiếm, Hà Nội",
         "province": "Hà Nội"
       },
       {
@@ -57,11 +47,6 @@
         "province": "Hà Nội"
       },
       {
-        "name": "SKK Văn Phú",
-        "address": "251 Lacasta, KĐT Văn Phú, Hà Đông, Hà Nội",
-        "province": "Hà Nội"
-      },
-      {
         "name": "SKK Nguyễn Văn Lộc",
         "address": "54 Nguyễn Văn Lộc, Mộ Lao, Hà Đông, Hà Nội",
         "province": "Hà Nội"
@@ -74,11 +59,6 @@
       {
         "name": "SKK Nguyễn Khuyến",
         "address": "78 Nguyễn Khuyến, Văn Quán, Hà Đông, Hà Nội",
-        "province": "Hà Nội"
-      },
-      {
-        "name": "SKK Sài Đồng",
-        "address": "21 P. Sài Đồng, Phúc Đồng, Long Biên, Hà Nội",
         "province": "Hà Nội"
       },
       {
@@ -1145,10 +1125,6 @@
           "address": "76 Nguyễn Du, Hai Bà Trưng, Hà Nội"
         },
         "optional": [
-          {
-            "name": "SKK Hàng Bông",
-            "address": "169–171 Hàng Bông, Hoàn Kiếm, Hà Nội"
-          },
           {
             "name": "SKK Thái Hà",
             "address": "171 Thái Hà, Đống Đa, Hà Nội"
