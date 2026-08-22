@@ -1136,28 +1136,24 @@
         ],
         "province": "Hà Nội"
       },
-      {
-        "hospital": "Bệnh viện Nhi Hà Nội",
-        "main": {
-          "name": "SKK Thái Hà",
-          "address": "171 Thái Hà, Đống Đa, Hà Nội"
-        },
-        "optional": [
-          {
-            "name": "SKK Nguyễn Tuân",
-            "address": "The Legend, 109 Nguyễn Tuân, Thanh Xuân, Hà Nội"
-          },
-          {
-            "name": "SKK Nguyễn Khuyến",
-            "address": "78 Nguyễn Khuyến, Văn Quán, Hà Đông, Hà Nội"
-          },
-          {
-            "name": "SKK Nguyễn Văn Lộc",
-            "address": "54 Nguyễn Văn Lộc, Mộ Lao, Hà Đông, Hà Nội"
-          }
-        ],
-        "province": "Hà Nội"
-      },
+     {
+  "hospital": "Bệnh viện Nhi Hà Nội",
+  "main": {
+    "name": "SKK Nguyễn Khuyến",
+    "address": "78 Nguyễn Khuyến, Văn Quán, Hà Đông, Hà Nội"
+  },
+  "optional": [
+    {
+      "name": "SKK Nguyễn Văn Lộc",
+      "address": "54 Nguyễn Văn Lộc, Mộ Lao, Hà Đông, Hà Nội"
+    },
+    {
+      "name": "SKK Nguyễn Tuân",
+      "address": "The Legend, 109 Nguyễn Tuân, Thanh Xuân, Hà Nội"
+    }
+  ],
+  "province": "Hà Nội"
+},
       {
         "hospital": "Spa Sammy Care",
         "main": {
